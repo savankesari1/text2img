@@ -5,7 +5,7 @@ const button = document.getElementById("btn");
 
 async function query() {
   try {
-    image.src = "\load.gif";
+    image.src = "load.gif";
     const response = await fetch(
       "https://api-inference.huggingface.co/models/openfree/flux-lora-korea-palace",
       {
