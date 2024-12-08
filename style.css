@@ -89,8 +89,8 @@
   }
   
   /* Loading state */
-  img[src="/load.gif"] {
-    padding: 2rem;
+  img[src="load.gif"] {
+    padding: 3rem;
     background: white;
     max-width: 200px;
   }
